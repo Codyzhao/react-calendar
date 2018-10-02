@@ -55,3 +55,14 @@
 .bg-anniversary {
   background-color: pink;
 }
+
+.square {
+  display: inline-block;
+  width: 15px;
+  height: 10px;
+}
+
+.color-code {
+  margin: 0 15px;
+  font-size: 14px;
+}

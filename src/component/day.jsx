@@ -17,7 +17,7 @@ class Day extends Component {
     return (
       <select
         name="categories"
-        class="categories"
+        className="categories"
         onChange={this.setCategory}
         value={this.state.selectedCategory}
       >
@@ -29,14 +29,6 @@ class Day extends Component {
       </select>
     );
   };
-
-  //   {this.state.selectedCategory ? (
-  //     <div className="badge badge-default">
-  //       {this.state.selectedCategory}
-  //     </div>
-  //   ) : (
-  //     ""
-  //   )}
 
   render() {
     const { day, monthStart, selectedDate } = this.props;
