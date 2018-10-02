@@ -23,6 +23,35 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.categories {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.bg-holiday {
+  background-color: lightgreen;
+}
+
+.bg-birthday {
+  background-color: yellow;
+}
+
+.bg-busy {
+  background-color: red;
+}
+
+.bg-anniversary {
+  background-color: pink;
 }
